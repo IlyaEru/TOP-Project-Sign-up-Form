@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up Form</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./img/viking.png">
+</head>
+<body>
+    <main>
+        <div class="img-block">
+            <div></div>
+            <div class="img-block__logo">
+                <img class="img-block__odin-icon" src="./img/viking.png" alt="Odin logo">
+                <p class="img-block__odin-text">Odin</p>
+            </div>
+            <p class="img-block__img-credit">
+                Photo by <a href="https://unsplash.com/@grakozy?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Greg Rakozy</a> on <a href="https://unsplash.com/s/photos/background?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash <br> <a href="https://www.flaticon.com/free-icons/viking" title="viking icons">Odin icon created by Freepik - Flaticon</a></a>
+            </p>
+        </div>
+        <div class="form-block">
+            <div class="form-block__para-container">
+                <p>This is a demo registration page! You know you need something like this in your life to help you realize your deepest dreams. Sign up <i>now</i> to get started. <br><br> You know you want to.</p>
+            </div>
+            <div class="form-block__form-container">
+                <form action="">
+                    <h3 class="form-header">Let's do this!</h3>
+                    <p class="asterisk-para">Fields marked with an asterisk (*) are required</p>
+                    <div class="input">
+                    <input type="text" id="first-name" placeholder=" ">
+                    <label for="first-name">First name</label>
+                    <p class="error-para"></p>
+                    </div>
+                    <div class="input last-name-input">
+                        <input type="text" id="last-name" placeholder=" ">
+                        <label for="last-name">Last name</label>
+                    </div>
+                    <div class="input">
+                        <input type="email" id="email" required placeholder=" ">
+                        <label class="email-label" for="email">email</label>
+                        <p class="error-para email-error"></p>
+                    </div>
+                    <div class="input phone-input">
+                        <input type="number" id="phone-number" placeholder=" ">
+                        <label for="phone-number">Phone number</label>
+                    </div>
+                    <div class="input">
+                        <input type="password" id="password" required placeholder=" ">
+                        <label class="password-label" for="password">Password</label>
+                        <p class="error-para password-error">
+                            <span class="pass-at-least-eight check">🗴</span> Minimum 8 characters <br> 
+                            <span class="pass-at-least-num check">🗴</span> At least one letter <br>
+                            <span class="pass-at-least-char check">🗴</span> At least one character <br>
+                        </p>
+                    </div>
+                    <div class="input">
+                        <input type="password" id="confirm-password" required placeholder=" ">
+                        <label class="password-label" for="confirm-password">Confirm password</label>
+                        <p class="error-para password-confirm-error"></p>
+                    </div>
+                </form>
+            </div>
+            <div class="form-block__btn-container">
+                <button class="create-acc-btn">Create Account</button>
+                <p>
+                    Already have an account? <a href="">Log in</a>
+                </p>
+            </div>
+            <footer>
+                <a href="https://github.com/IlyaEru"><img src="img/github.png" alt="github link" /></a>
+                <a class="gitHub-name" href="https://github.com/IlyaEru">IlyaEru</a>
+            </footer>
+        </div>
+    </main>
+</body>
+</html>
