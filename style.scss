@@ -179,6 +179,12 @@ main {
       opacity: 0.8;
       text-align: center;
     }
+    @media only screen and (orientation: Portrait) {
+      .img-block__img-credit {
+        font-size: 0.5rem;
+        margin-bottom: 0;
+      }
+    }
   }
   .form-block {
     $blue-form-color: #317dad;
