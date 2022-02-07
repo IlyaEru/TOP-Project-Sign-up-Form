@@ -11,11 +11,12 @@
 - <a href="https://github.com/IlyaEru/TOP-JS-Rock-paper-scissors">Third Project - Rock Paper Scissors</a> [HTML | CSS | Basic JavaScript]
 - <a href="https://github.com/IlyaEru/-ETCH-A-SKETCH">Fourth Project - Etch-a-Sketch</a> [HTML | CSS | Basic JavaScript + events]
 - <a href="https://github.com/IlyaEru/TOP-CALCULATOR">Fifth Project - Calculator</a> [HTML | CSS | JavaScript]
-- <a href="https://github.com/IlyaEru/TOP-Project-Todo-List">Sixth Project - Sign-up Form</a> [HTML | CSS | JavaScript]
-- <a href="https://github.com/IlyaEru/TOP-Project-Library">Seventh Project - Library</a> [HTML | CSS | JavaScript + Objects]
-- <a href="https://github.com/IlyaEru/TOP-Project-TIC-TAC-TOE">Eighth Project - Tic Tac Toe</a> [HTML | CSS | JavaScript + Factory Functions + The Module Pattern]
-- <a href="https://github.com/IlyaEru/TOP-Project-Restaurant-Page">Ninth Project - Restaurant Page</a> [HTML | CSS | JavaScript + ES6 Modules + Webpack]
-- <a href="https://github.com/IlyaEru/TOP-Project-Todo-List">Tenth Project - Todo List</a> [HTML | CSS | JavaScript + ES6 Modules + Webpack]
+- <a href="https://github.com/IlyaEru/TOP-Project-Sign-up-Form">Sixth Project - Sign-up Form</a> [HTML | CSS | JavaScript]
+- <a href="https://github.com/IlyaEru/TOP-Project-Admin-Dashboard">Seventh Project - Admin Dashboard</a> [HTML | CSS | JavaScript]
+- <a href="https://github.com/IlyaEru/TOP-Project-Library">Eighth Project - Library</a> [HTML | CSS | JavaScript + Objects]
+- <a href="https://github.com/IlyaEru/TOP-Project-TIC-TAC-TOE">Ninth Project - Tic Tac Toe</a> [HTML | CSS | JavaScript + Factory Functions + The Module Pattern]
+- <a href="https://github.com/IlyaEru/TOP-Project-Restaurant-Page">Tenth Project - Restaurant Page</a> [HTML | CSS | JavaScript + ES6 Modules + Webpack]
+- <a href="https://github.com/IlyaEru/TOP-Project-Todo-List">Eleventh Project - Todo List</a> [HTML | CSS | JavaScript + ES6 Modules + Webpack]
 
 ## QA
 
