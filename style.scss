@@ -1,3 +1,4 @@
+// Modern Normalize Start //
 *,
 ::after,
 ::before {
@@ -111,6 +112,8 @@ progress {
 summary {
   display: list-item;
 }
+// Modern Normalize End //
+
 @font-face {
   font-family: Norse;
   src: url(./Norse-Bold.otf);
@@ -223,6 +226,18 @@ main {
         margin: 0;
         width: 100%;
       }
+      // Removes input type number arrows
+      /* Chrome, Safari, Edge, Opera */
+      input::-webkit-outer-spin-button,
+      input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }
+
+      /* Firefox */
+      input[type="number"] {
+        -moz-appearance: textfield;
+      }
       .asterisk-para {
         width: 100%;
         margin: 0;
@@ -271,22 +286,26 @@ main {
         @media only screen and (orientation: Portrait) {
           width: 100%;
         }
+        label {
+          transition: all 0.5s;
+        }
         input {
           width: 80%;
           border: none;
           border-bottom: 2px solid #e5e7eb;
+
           &:focus {
             border-bottom: 2px solid $blue-form-color;
             outline: none;
 
             & ~ label {
               transition: 0.4s;
-              transform: translateY(-1rem);
+              transform: translateY(-1rem) scale(0.8) translateX(-10%);
               color: rgb(46, 48, 50);
             }
           }
           &:not(:placeholder-shown) ~ label {
-            transform: translateY(-1rem);
+            transform: translateY(-1rem) scale(0.8) translateX(-10%);
             color: rgb(46, 48, 50);
           }
         }
@@ -313,9 +332,11 @@ main {
         font-size: 1.1rem;
         font-weight: bold;
         border: 2px solid $blue-form-color;
+        transition: all 0.3s;
         &:hover {
           transform: scale(1.03);
-          box-shadow: 0 0 3px $blue-form-color;
+          background-color: $blue-form-color;
+          color: white;
         }
         &:active {
           transform: scale(1);
@@ -331,6 +352,16 @@ main {
     }
   }
 }
+@media only screen and (orientation: Portrait) {
+  .form-block__btn-container {
+    background-color: #f9fafb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
 /* Footer */
 footer {
   opacity: 0.8;

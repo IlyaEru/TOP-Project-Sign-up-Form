@@ -306,6 +306,11 @@ main .form-block .form-block__para-container p {
   }
 }
 
+main .form-block .form-block__form-container {
+  /* Chrome, Safari, Edge, Opera */
+  /* Firefox */
+}
+
 main .form-block .form-block__form-container form {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -318,6 +323,16 @@ main .form-block .form-block__form-container h3.form-header {
   font-size: 2rem;
   margin: 0;
   width: 100%;
+}
+
+main .form-block .form-block__form-container input::-webkit-outer-spin-button,
+main .form-block .form-block__form-container input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+main .form-block .form-block__form-container input[type="number"] {
+  -moz-appearance: textfield;
 }
 
 main .form-block .form-block__form-container .asterisk-para {
@@ -386,6 +401,11 @@ main .form-block .form-block__form-container .input {
   }
 }
 
+main .form-block .form-block__form-container .input label {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
 main .form-block .form-block__form-container .input input {
   width: 80%;
   border: none;
@@ -400,14 +420,14 @@ main .form-block .form-block__form-container .input input:focus {
 main .form-block .form-block__form-container .input input:focus ~ label {
   -webkit-transition: 0.4s;
   transition: 0.4s;
-  -webkit-transform: translateY(-1rem);
-          transform: translateY(-1rem);
+  -webkit-transform: translateY(-1rem) scale(0.8) translateX(-10%);
+          transform: translateY(-1rem) scale(0.8) translateX(-10%);
   color: #2e3032;
 }
 
 main .form-block .form-block__form-container .input input:not(:placeholder-shown) ~ label {
-  -webkit-transform: translateY(-1rem);
-          transform: translateY(-1rem);
+  -webkit-transform: translateY(-1rem) scale(0.8) translateX(-10%);
+          transform: translateY(-1rem) scale(0.8) translateX(-10%);
   color: #2e3032;
 }
 
@@ -433,13 +453,15 @@ main .form-block .form-block__btn-container .create-acc-btn {
   font-size: 1.1rem;
   font-weight: bold;
   border: 2px solid #317dad;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 main .form-block .form-block__btn-container .create-acc-btn:hover {
   -webkit-transform: scale(1.03);
           transform: scale(1.03);
-  -webkit-box-shadow: 0 0 3px #317dad;
-          box-shadow: 0 0 3px #317dad;
+  background-color: #317dad;
+  color: white;
 }
 
 main .form-block .form-block__btn-container .create-acc-btn:active {
@@ -451,6 +473,25 @@ main .form-block .form-block__btn-container p a {
   text-decoration: none;
   color: #317dad;
   font-weight: bold;
+}
+
+@media only screen and (orientation: Portrait) {
+  .form-block__btn-container {
+    background-color: #f9fafb;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 
 /* Footer */
